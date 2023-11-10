@@ -1,0 +1,7 @@
+Creamos la base de datos 
+CREATE TABLE datos (
+    	id serial PRIMARY KEY,
+    	nombre VARCHAR(50) NOT NULL,
+   	telefono INT NOT NULL,
+   	fecha  DATE NOT NULL  
+);
